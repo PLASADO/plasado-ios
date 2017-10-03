@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PTf-Do-nEf">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose and save money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A0-L5-1zM">
+                    <rect key="frame" x="77.5" y="450" width="220" height="23"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Review offers as they come, chat with partners and fulfill your intention on the spot" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMK-8U-Av1">
+                    <rect key="frame" x="10" y="483" width="355" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Ibg-4I-beY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutor1" translatesAutoresizingMaskIntoConstraints="NO" id="MT2-an-zOI">
+                    <rect key="frame" x="20" y="90" width="355" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="320" id="Omo-Hg-1nD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.99257153269999998" green="0.97297638649999996" blue="0.97240000959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RMK-8U-Av1" firstAttribute="centerX" secondItem="PTf-Do-nEf" secondAttribute="centerX" id="IBU-mB-uzk"/>
+                <constraint firstItem="9A0-L5-1zM" firstAttribute="centerX" secondItem="PTf-Do-nEf" secondAttribute="centerX" id="J1K-ND-SXw"/>
+                <constraint firstItem="RMK-8U-Av1" firstAttribute="top" secondItem="9A0-L5-1zM" secondAttribute="bottom" constant="10" id="OgZ-ad-plR"/>
+                <constraint firstItem="9A0-L5-1zM" firstAttribute="top" secondItem="MT2-an-zOI" secondAttribute="bottom" constant="40" id="ZJq-Fn-qRy"/>
+                <constraint firstItem="RMK-8U-Av1" firstAttribute="leading" secondItem="PTf-Do-nEf" secondAttribute="leading" constant="10" id="a3m-nD-ZeQ"/>
+                <constraint firstItem="MT2-an-zOI" firstAttribute="centerX" secondItem="PTf-Do-nEf" secondAttribute="centerX" constant="10" id="cqU-vX-XGL"/>
+                <constraint firstItem="MT2-an-zOI" firstAttribute="width" secondItem="PTf-Do-nEf" secondAttribute="width" constant="-20" id="iP6-Xj-IaV"/>
+                <constraint firstItem="MT2-an-zOI" firstAttribute="top" secondItem="PTf-Do-nEf" secondAttribute="top" constant="90" id="uq6-mQ-P93"/>
+                <constraint firstAttribute="trailing" secondItem="RMK-8U-Av1" secondAttribute="trailing" constant="10" id="zRK-Z4-hg8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1786" y="-504"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tutor1" width="663" height="588"/>
+    </resources>
+</document>

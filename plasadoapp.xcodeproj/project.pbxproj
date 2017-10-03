@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0008E61B1F4178860006D966 /* IntentionDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E61A1F4178860006D966 /* IntentionDetailController.swift */; };
+		0008E61D1F4178990006D966 /* IntentionDetailSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E61C1F4178980006D966 /* IntentionDetailSubController.swift */; };
+		0008E61F1F417B150006D966 /* IntentionDetailContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E61E1F417B150006D966 /* IntentionDetailContentController.swift */; };
+		0008E6211F4182AC0006D966 /* IntentionDetailOffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6201F4182AC0006D966 /* IntentionDetailOffersController.swift */; };
+		0008E6231F4191670006D966 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6221F4191670006D966 /* CalendarTableViewCell.swift */; };
+		0008E62A1F4191940006D966 /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6251F4191940006D966 /* MZDay.m */; };
+		0008E62B1F4191940006D966 /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6271F4191940006D966 /* MZDayPicker.m */; };
+		0008E62C1F4191940006D966 /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008E6291F4191940006D966 /* MZDayPickerCell.m */; };
+		0008E62F1F4192240006D966 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008E62E1F4192240006D966 /* CalendarViewController.swift */; };
+		001564F71F3FD6E6002507D5 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001564F61F3FD6E6002507D5 /* OffersViewController.swift */; };
+		001564F91F3FDA4F002507D5 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001564F81F3FDA4F002507D5 /* OfferCell.swift */; };
+		001564FB1F413FB4002507D5 /* OfferDetailSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001564FA1F413FB4002507D5 /* OfferDetailSubController.swift */; };
+		001564FD1F414000002507D5 /* OfferDetailContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001564FC1F414000002507D5 /* OfferDetailContentController.swift */; };
+		001565011F41489E002507D5 /* OfferDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001565001F41489E002507D5 /* OfferDetailController.swift */; };
+		00248E2F1F759B6A000B132E /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00248E2E1F759B6A000B132E /* NotificationsController.swift */; };
+		0028BC0E1F3DCD56001D0B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028BC0D1F3DCD56001D0B38 /* AppDelegate.swift */; };
+		0028BC101F3DCD56001D0B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028BC0F1F3DCD56001D0B38 /* ViewController.swift */; };
+		0028BC131F3DCD56001D0B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0028BC111F3DCD56001D0B38 /* Main.storyboard */; };
+		0028BC151F3DCD56001D0B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0028BC141F3DCD56001D0B38 /* Assets.xcassets */; };
+		0028BC181F3DCD56001D0B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0028BC161F3DCD56001D0B38 /* LaunchScreen.storyboard */; };
+		0028BC231F3DCD56001D0B38 /* plasadoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028BC221F3DCD56001D0B38 /* plasadoappTests.swift */; };
+		0028BC2E1F3DCD56001D0B38 /* plasadoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028BC2D1F3DCD56001D0B38 /* plasadoappUITests.swift */; };
+		0028BC3E1F3DD4FB001D0B38 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028BC3D1F3DD4FB001D0B38 /* SignupController.swift */; };
+		003D78D21F41CCBF00DD9AC1 /* CalendarOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D78D11F41CCBF00DD9AC1 /* CalendarOtherViewController.swift */; };
+		0041EC2F1F3ED5D20043DA77 /* AHTagsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041EC2B1F3ED5D10043DA77 /* AHTagsLabel.swift */; };
+		0041EC321F3ED5D20043DA77 /* AHTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041EC2E1F3ED5D20043DA77 /* AHTagView.swift */; };
+		0050F3381F3E609600773EC5 /* TutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0050F3371F3E609600773EC5 /* TutorialController.swift */; };
+		0050F33C1F3E61FB00773EC5 /* TutorView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0050F33A1F3E61FB00773EC5 /* TutorView1.xib */; };
+		0050F33E1F3E643800773EC5 /* TutorView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0050F33D1F3E643800773EC5 /* TutorView2.xib */; };
+		0050F3401F3E688C00773EC5 /* TutorView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0050F33F1F3E688C00773EC5 /* TutorView3.xib */; };
+		0050F3481F3E727800773EC5 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0050F3471F3E727800773EC5 /* FXPageControl.m */; };
+		0050F34B1F3E841A00773EC5 /* CreateProfileTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0050F34A1F3E841A00773EC5 /* CreateProfileTableController.swift */; };
+		0075D71F1F3F25DE00E88DB4 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D71E1F3F25DE00E88DB4 /* TabbarController.swift */; };
+		0075D7211F3F2BF800E88DB4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D7201F3F2BF800E88DB4 /* MenuViewController.swift */; };
+		0075D7251F3F355700E88DB4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D7241F3F355700E88DB4 /* HomeController.swift */; };
+		0075D7281F3F35AC00E88DB4 /* FeaturedOffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D7261F3F35AC00E88DB4 /* FeaturedOffersCell.swift */; };
+		0075D7291F3F35AC00E88DB4 /* MyIntentionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D7271F3F35AC00E88DB4 /* MyIntentionCell.swift */; };
+		0075D72E1F3F38FF00E88DB4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D72C1F3F38FF00E88DB4 /* ProfileController.swift */; };
+		0075D72F1F3F38FF00E88DB4 /* ProfileSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D72D1F3F38FF00E88DB4 /* ProfileSearchCell.swift */; };
+		0075D7331F3F3BAF00E88DB4 /* AddIntentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075D7321F3F3BAF00E88DB4 /* AddIntentionController.swift */; };
+		009B26AA1F59DD2700505C54 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B26A91F59DD2700505C54 /* UserModel.swift */; };
+		00ADD7091F70F03F00378E5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00ADD7081F70F03F00378E5E /* GoogleService-Info.plist */; };
+		00ADD70B1F70FA2500378E5E /* IntentionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADD70A1F70FA2500378E5E /* IntentionModel.swift */; };
+		00D5E7751F7870AF00CFB062 /* CalendarShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5E7741F7870AF00CFB062 /* CalendarShowController.swift */; };
+		00F8668D1F481A0900F1E227 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8668C1F481A0900F1E227 /* LocalStorage.swift */; };
+		1C10FFFE9062200A43E4FD81 /* Pods_plasadoapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D3D4621382BA6D7309A5B5 /* Pods_plasadoapp.framework */; };
+		8608CAAD2AAC11C546E14C6C /* Pods_plasadoappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAA2D8CE7A623552124BBF2 /* Pods_plasadoappTests.framework */; };
+		8F656F9541A54B0BA019A699 /* Pods_plasadoappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E4D6CFA1C33BA40E3F85B5 /* Pods_plasadoappUITests.framework */; };
+		F26F8F831F665D6D0035FAE3 /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F8F821F665D6D0035FAE3 /* OfferModel.swift */; };
+		F2BF5EF51F7E1804003224D3 /* CalendarEventFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF5EF41F7E1804003224D3 /* CalendarEventFetch.swift */; };
+		F2C1324D1F5596D600575695 /* OfferDetailHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1324C1F5596D600575695 /* OfferDetailHeaderCell.swift */; };
+		F2C1324F1F5596F300575695 /* OfferDetailFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1324E1F5596F300575695 /* OfferDetailFooterCell.swift */; };
+		F2C132521F567F0300575695 /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C132511F567F0300575695 /* UserSearchController.swift */; };
+		F2C132541F56A1D900575695 /* SearchItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C132531F56A1D900575695 /* SearchItemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0028BC1F1F3DCD56001D0B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0028BC021F3DCD56001D0B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0028BC091F3DCD56001D0B38;
+			remoteInfo = plasadoapp;
+		};
+		0028BC2A1F3DCD56001D0B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0028BC021F3DCD56001D0B38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0028BC091F3DCD56001D0B38;
+			remoteInfo = plasadoapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0008E61A1F4178860006D966 /* IntentionDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentionDetailController.swift; sourceTree = "<group>"; };
+		0008E61C1F4178980006D966 /* IntentionDetailSubController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentionDetailSubController.swift; sourceTree = "<group>"; };
+		0008E61E1F417B150006D966 /* IntentionDetailContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentionDetailContentController.swift; sourceTree = "<group>"; };
+		0008E6201F4182AC0006D966 /* IntentionDetailOffersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentionDetailOffersController.swift; sourceTree = "<group>"; };
+		0008E6221F4191670006D966 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		0008E6241F4191940006D966 /* MZDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDay.h; sourceTree = "<group>"; };
+		0008E6251F4191940006D966 /* MZDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDay.m; sourceTree = "<group>"; };
+		0008E6261F4191940006D966 /* MZDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPicker.h; sourceTree = "<group>"; };
+		0008E6271F4191940006D966 /* MZDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPicker.m; sourceTree = "<group>"; };
+		0008E6281F4191940006D966 /* MZDayPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPickerCell.h; sourceTree = "<group>"; };
+		0008E6291F4191940006D966 /* MZDayPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPickerCell.m; sourceTree = "<group>"; };
+		0008E62E1F4192240006D966 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		001564F61F3FD6E6002507D5 /* OffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		001564F81F3FDA4F002507D5 /* OfferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		001564FA1F413FB4002507D5 /* OfferDetailSubController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailSubController.swift; sourceTree = "<group>"; };
+		001564FC1F414000002507D5 /* OfferDetailContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailContentController.swift; sourceTree = "<group>"; };
+		001565001F41489E002507D5 /* OfferDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailController.swift; sourceTree = "<group>"; };
+		00248E2D1F759762000B132E /* plasadoapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = plasadoapp.entitlements; sourceTree = "<group>"; };
+		00248E2E1F759B6A000B132E /* NotificationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		0028BC0A1F3DCD56001D0B38 /* plasadoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plasadoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028BC0D1F3DCD56001D0B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0028BC0F1F3DCD56001D0B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0028BC121F3DCD56001D0B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0028BC141F3DCD56001D0B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0028BC171F3DCD56001D0B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0028BC191F3DCD56001D0B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0028BC1E1F3DCD56001D0B38 /* plasadoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plasadoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028BC221F3DCD56001D0B38 /* plasadoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plasadoappTests.swift; sourceTree = "<group>"; };
+		0028BC241F3DCD56001D0B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0028BC291F3DCD56001D0B38 /* plasadoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plasadoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028BC2D1F3DCD56001D0B38 /* plasadoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plasadoappUITests.swift; sourceTree = "<group>"; };
+		0028BC2F1F3DCD56001D0B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0028BC3D1F3DD4FB001D0B38 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		003D78D11F41CCBF00DD9AC1 /* CalendarOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarOtherViewController.swift; sourceTree = "<group>"; };
+		0041EC2B1F3ED5D10043DA77 /* AHTagsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHTagsLabel.swift; sourceTree = "<group>"; };
+		0041EC2E1F3ED5D20043DA77 /* AHTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHTagView.swift; sourceTree = "<group>"; };
+		0050F3371F3E609600773EC5 /* TutorialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialController.swift; sourceTree = "<group>"; };
+		0050F33A1F3E61FB00773EC5 /* TutorView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorView1.xib; sourceTree = "<group>"; };
+		0050F33D1F3E643800773EC5 /* TutorView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorView2.xib; sourceTree = "<group>"; };
+		0050F33F1F3E688C00773EC5 /* TutorView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorView3.xib; sourceTree = "<group>"; };
+		0050F3451F3E727800773EC5 /* plasadoapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plasadoapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0050F3461F3E727800773EC5 /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
+		0050F3471F3E727800773EC5 /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
+		0050F34A1F3E841A00773EC5 /* CreateProfileTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileTableController.swift; sourceTree = "<group>"; };
+		0075D71E1F3F25DE00E88DB4 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		0075D7201F3F2BF800E88DB4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0075D7241F3F355700E88DB4 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0075D7261F3F35AC00E88DB4 /* FeaturedOffersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedOffersCell.swift; sourceTree = "<group>"; };
+		0075D7271F3F35AC00E88DB4 /* MyIntentionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIntentionCell.swift; sourceTree = "<group>"; };
+		0075D72C1F3F38FF00E88DB4 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0075D72D1F3F38FF00E88DB4 /* ProfileSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSearchCell.swift; sourceTree = "<group>"; };
+		0075D7321F3F3BAF00E88DB4 /* AddIntentionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIntentionController.swift; sourceTree = "<group>"; };
+		009B26A91F59DD2700505C54 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		00ADD7081F70F03F00378E5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00ADD70A1F70FA2500378E5E /* IntentionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentionModel.swift; sourceTree = "<group>"; };
+		00D5E7741F7870AF00CFB062 /* CalendarShowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarShowController.swift; sourceTree = "<group>"; };
+		00F8668C1F481A0900F1E227 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		2AAA2D8CE7A623552124BBF2 /* Pods_plasadoappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plasadoappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B3D49BDA84D27988BA1CD0 /* Pods-plasadoappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoappTests/Pods-plasadoappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3964C6B682FAAD9C7616A888 /* Pods-plasadoappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoappUITests/Pods-plasadoappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41D3D4621382BA6D7309A5B5 /* Pods_plasadoapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plasadoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145EF50FDCBF4C5866CECB2 /* Pods-plasadoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp.release.xcconfig"; sourceTree = "<group>"; };
+		8DA9336F0DDF72CE70E47DF2 /* Pods-plasadoappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoappTests/Pods-plasadoappTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F8B78208A5928E63170D1BC /* Pods-plasadoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp.debug.xcconfig"; sourceTree = "<group>"; };
+		95E4D6CFA1C33BA40E3F85B5 /* Pods_plasadoappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plasadoappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CFE9DBA0FAC2C1348F06FC /* Pods-plasadoappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plasadoappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-plasadoappUITests/Pods-plasadoappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F26F8F821F665D6D0035FAE3 /* OfferModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		F2BF5EF41F7E1804003224D3 /* CalendarEventFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventFetch.swift; sourceTree = "<group>"; };
+		F2C1324C1F5596D600575695 /* OfferDetailHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailHeaderCell.swift; sourceTree = "<group>"; };
+		F2C1324E1F5596F300575695 /* OfferDetailFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferDetailFooterCell.swift; path = Assets.xcassets/OfferDetailFooterCell.swift; sourceTree = "<group>"; };
+		F2C132511F567F0300575695 /* UserSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		F2C132531F56A1D900575695 /* SearchItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchItemCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0028BC071F3DCD56001D0B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10FFFE9062200A43E4FD81 /* Pods_plasadoapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC1B1F3DCD56001D0B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8608CAAD2AAC11C546E14C6C /* Pods_plasadoappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC261F3DCD56001D0B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F656F9541A54B0BA019A699 /* Pods_plasadoappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0008E62D1F41919D0006D966 /* MZControl */ = {
+			isa = PBXGroup;
+			children = (
+				0008E6241F4191940006D966 /* MZDay.h */,
+				0008E6251F4191940006D966 /* MZDay.m */,
+				0008E6261F4191940006D966 /* MZDayPicker.h */,
+				0008E6271F4191940006D966 /* MZDayPicker.m */,
+				0008E6281F4191940006D966 /* MZDayPickerCell.h */,
+				0008E6291F4191940006D966 /* MZDayPickerCell.m */,
+			);
+			name = MZControl;
+			sourceTree = "<group>";
+		};
+		0028BC011F3DCD56001D0B38 = {
+			isa = PBXGroup;
+			children = (
+				0028BC0C1F3DCD56001D0B38 /* plasadoapp */,
+				0028BC211F3DCD56001D0B38 /* plasadoappTests */,
+				0028BC2C1F3DCD56001D0B38 /* plasadoappUITests */,
+				0028BC0B1F3DCD56001D0B38 /* Products */,
+				3D5B3597453A31C1066B3F9C /* Pods */,
+				DE2ED9CB88847DF2CC15662D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0028BC0B1F3DCD56001D0B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0028BC0A1F3DCD56001D0B38 /* plasadoapp.app */,
+				0028BC1E1F3DCD56001D0B38 /* plasadoappTests.xctest */,
+				0028BC291F3DCD56001D0B38 /* plasadoappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0028BC0C1F3DCD56001D0B38 /* plasadoapp */ = {
+			isa = PBXGroup;
+			children = (
+				00248E2D1F759762000B132E /* plasadoapp.entitlements */,
+				009B26A81F59DD0200505C54 /* Model */,
+				003D78D11F41CCBF00DD9AC1 /* CalendarOtherViewController.swift */,
+				0008E62E1F4192240006D966 /* CalendarViewController.swift */,
+				0008E6221F4191670006D966 /* CalendarTableViewCell.swift */,
+				0075D7321F3F3BAF00E88DB4 /* AddIntentionController.swift */,
+				F2C132501F5655A100575695 /* SearchUsers */,
+				0075D72C1F3F38FF00E88DB4 /* ProfileController.swift */,
+				0075D72D1F3F38FF00E88DB4 /* ProfileSearchCell.swift */,
+				0075D7231F3F339000E88DB4 /* Library */,
+				0050F3491F3E7D9500773EC5 /* Tutorial */,
+				0028BC3C1F3DCDF3001D0B38 /* Support */,
+				0028BC3D1F3DD4FB001D0B38 /* SignupController.swift */,
+				0028BC0F1F3DCD56001D0B38 /* ViewController.swift */,
+				0050F34A1F3E841A00773EC5 /* CreateProfileTableController.swift */,
+				0075D7201F3F2BF800E88DB4 /* MenuViewController.swift */,
+				0075D72A1F3F35DB00E88DB4 /* HomeController */,
+				0075D71E1F3F25DE00E88DB4 /* TabbarController.swift */,
+				001564F61F3FD6E6002507D5 /* OffersViewController.swift */,
+				001565001F41489E002507D5 /* OfferDetailController.swift */,
+				001564FA1F413FB4002507D5 /* OfferDetailSubController.swift */,
+				001564FC1F414000002507D5 /* OfferDetailContentController.swift */,
+				F2C1324B1F5594F300575695 /* OfferDetailHFcell */,
+				001564F81F3FDA4F002507D5 /* OfferCell.swift */,
+				0008E61A1F4178860006D966 /* IntentionDetailController.swift */,
+				0008E61C1F4178980006D966 /* IntentionDetailSubController.swift */,
+				0008E61E1F417B150006D966 /* IntentionDetailContentController.swift */,
+				0008E6201F4182AC0006D966 /* IntentionDetailOffersController.swift */,
+				00D5E7741F7870AF00CFB062 /* CalendarShowController.swift */,
+			);
+			path = plasadoapp;
+			sourceTree = "<group>";
+		};
+		0028BC211F3DCD56001D0B38 /* plasadoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				0028BC221F3DCD56001D0B38 /* plasadoappTests.swift */,
+				0028BC241F3DCD56001D0B38 /* Info.plist */,
+			);
+			path = plasadoappTests;
+			sourceTree = "<group>";
+		};
+		0028BC2C1F3DCD56001D0B38 /* plasadoappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0028BC2D1F3DCD56001D0B38 /* plasadoappUITests.swift */,
+				0028BC2F1F3DCD56001D0B38 /* Info.plist */,
+			);
+			path = plasadoappUITests;
+			sourceTree = "<group>";
+		};
+		0028BC3C1F3DCDF3001D0B38 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				00ADD7081F70F03F00378E5E /* GoogleService-Info.plist */,
+				0050F3451F3E727800773EC5 /* plasadoapp-Bridging-Header.h */,
+				0028BC0D1F3DCD56001D0B38 /* AppDelegate.swift */,
+				0028BC111F3DCD56001D0B38 /* Main.storyboard */,
+				0028BC141F3DCD56001D0B38 /* Assets.xcassets */,
+				0028BC161F3DCD56001D0B38 /* LaunchScreen.storyboard */,
+				0028BC191F3DCD56001D0B38 /* Info.plist */,
+				00F8668C1F481A0900F1E227 /* LocalStorage.swift */,
+				00248E2E1F759B6A000B132E /* NotificationsController.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		0050F3491F3E7D9500773EC5 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				0050F33A1F3E61FB00773EC5 /* TutorView1.xib */,
+				0050F33D1F3E643800773EC5 /* TutorView2.xib */,
+				0050F33F1F3E688C00773EC5 /* TutorView3.xib */,
+				0050F3371F3E609600773EC5 /* TutorialController.swift */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		0075D7221F3F338800E88DB4 /* AHTag */ = {
+			isa = PBXGroup;
+			children = (
+				0041EC2B1F3ED5D10043DA77 /* AHTagsLabel.swift */,
+				0041EC2E1F3ED5D20043DA77 /* AHTagView.swift */,
+			);
+			name = AHTag;
+			sourceTree = "<group>";
+		};
+		0075D7231F3F339000E88DB4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0008E62D1F41919D0006D966 /* MZControl */,
+				0075D72B1F3F35FC00E88DB4 /* FxPageControl */,
+				0075D7221F3F338800E88DB4 /* AHTag */,
+				F2BF5EF41F7E1804003224D3 /* CalendarEventFetch.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		0075D72A1F3F35DB00E88DB4 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				0075D7241F3F355700E88DB4 /* HomeController.swift */,
+				0075D7261F3F35AC00E88DB4 /* FeaturedOffersCell.swift */,
+				0075D7271F3F35AC00E88DB4 /* MyIntentionCell.swift */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		0075D72B1F3F35FC00E88DB4 /* FxPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0050F3461F3E727800773EC5 /* FXPageControl.h */,
+				0050F3471F3E727800773EC5 /* FXPageControl.m */,
+			);
+			name = FxPageControl;
+			sourceTree = "<group>";
+		};
+		009B26A81F59DD0200505C54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				009B26A91F59DD2700505C54 /* UserModel.swift */,
+				F26F8F821F665D6D0035FAE3 /* OfferModel.swift */,
+				00ADD70A1F70FA2500378E5E /* IntentionModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D5B3597453A31C1066B3F9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B78208A5928E63170D1BC /* Pods-plasadoapp.debug.xcconfig */,
+				6145EF50FDCBF4C5866CECB2 /* Pods-plasadoapp.release.xcconfig */,
+				38B3D49BDA84D27988BA1CD0 /* Pods-plasadoappTests.debug.xcconfig */,
+				8DA9336F0DDF72CE70E47DF2 /* Pods-plasadoappTests.release.xcconfig */,
+				F0CFE9DBA0FAC2C1348F06FC /* Pods-plasadoappUITests.debug.xcconfig */,
+				3964C6B682FAAD9C7616A888 /* Pods-plasadoappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE2ED9CB88847DF2CC15662D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41D3D4621382BA6D7309A5B5 /* Pods_plasadoapp.framework */,
+				2AAA2D8CE7A623552124BBF2 /* Pods_plasadoappTests.framework */,
+				95E4D6CFA1C33BA40E3F85B5 /* Pods_plasadoappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C1324B1F5594F300575695 /* OfferDetailHFcell */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1324C1F5596D600575695 /* OfferDetailHeaderCell.swift */,
+				F2C1324E1F5596F300575695 /* OfferDetailFooterCell.swift */,
+			);
+			name = OfferDetailHFcell;
+			sourceTree = "<group>";
+		};
+		F2C132501F5655A100575695 /* SearchUsers */ = {
+			isa = PBXGroup;
+			children = (
+				F2C132511F567F0300575695 /* UserSearchController.swift */,
+				F2C132531F56A1D900575695 /* SearchItemCell.swift */,
+			);
+			name = SearchUsers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0028BC091F3DCD56001D0B38 /* plasadoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028BC321F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoapp" */;
+			buildPhases = (
+				9A89DC421FD08CCDB9E5B222 /* [CP] Check Pods Manifest.lock */,
+				0028BC061F3DCD56001D0B38 /* Sources */,
+				0028BC071F3DCD56001D0B38 /* Frameworks */,
+				0028BC081F3DCD56001D0B38 /* Resources */,
+				707D2AF0D0C75A9F2D7B52F7 /* [CP] Embed Pods Frameworks */,
+				DDB155C11D85790B200E3537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plasadoapp;
+			productName = plasadoapp;
+			productReference = 0028BC0A1F3DCD56001D0B38 /* plasadoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0028BC1D1F3DCD56001D0B38 /* plasadoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028BC351F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoappTests" */;
+			buildPhases = (
+				E7CC963A8F3163CFADFB5C3F /* [CP] Check Pods Manifest.lock */,
+				0028BC1A1F3DCD56001D0B38 /* Sources */,
+				0028BC1B1F3DCD56001D0B38 /* Frameworks */,
+				0028BC1C1F3DCD56001D0B38 /* Resources */,
+				D578F29D2CC079D6FC453BC6 /* [CP] Embed Pods Frameworks */,
+				5784F13C354A514BE00F2423 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0028BC201F3DCD56001D0B38 /* PBXTargetDependency */,
+			);
+			name = plasadoappTests;
+			productName = plasadoappTests;
+			productReference = 0028BC1E1F3DCD56001D0B38 /* plasadoappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0028BC281F3DCD56001D0B38 /* plasadoappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028BC381F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoappUITests" */;
+			buildPhases = (
+				2D8EB54CC8B1891BD5B04A12 /* [CP] Check Pods Manifest.lock */,
+				0028BC251F3DCD56001D0B38 /* Sources */,
+				0028BC261F3DCD56001D0B38 /* Frameworks */,
+				0028BC271F3DCD56001D0B38 /* Resources */,
+				71630CAE67EB3D180E69151C /* [CP] Embed Pods Frameworks */,
+				D56746A148C0B79E2EE6547E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0028BC2B1F3DCD56001D0B38 /* PBXTargetDependency */,
+			);
+			name = plasadoappUITests;
+			productName = plasadoappUITests;
+			productReference = 0028BC291F3DCD56001D0B38 /* plasadoappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0028BC021F3DCD56001D0B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = plasado;
+				TargetAttributes = {
+					0028BC091F3DCD56001D0B38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q3LJ8SMAVR;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0028BC1D1F3DCD56001D0B38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0028BC091F3DCD56001D0B38;
+					};
+					0028BC281F3DCD56001D0B38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0028BC091F3DCD56001D0B38;
+					};
+				};
+			};
+			buildConfigurationList = 0028BC051F3DCD56001D0B38 /* Build configuration list for PBXProject "plasadoapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0028BC011F3DCD56001D0B38;
+			productRefGroup = 0028BC0B1F3DCD56001D0B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0028BC091F3DCD56001D0B38 /* plasadoapp */,
+				0028BC1D1F3DCD56001D0B38 /* plasadoappTests */,
+				0028BC281F3DCD56001D0B38 /* plasadoappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0028BC081F3DCD56001D0B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ADD7091F70F03F00378E5E /* GoogleService-Info.plist in Resources */,
+				0050F33E1F3E643800773EC5 /* TutorView2.xib in Resources */,
+				0050F3401F3E688C00773EC5 /* TutorView3.xib in Resources */,
+				0028BC181F3DCD56001D0B38 /* LaunchScreen.storyboard in Resources */,
+				0028BC151F3DCD56001D0B38 /* Assets.xcassets in Resources */,
+				0028BC131F3DCD56001D0B38 /* Main.storyboard in Resources */,
+				0050F33C1F3E61FB00773EC5 /* TutorView1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC1C1F3DCD56001D0B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC271F3DCD56001D0B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D8EB54CC8B1891BD5B04A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plasadoappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5784F13C354A514BE00F2423 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoappTests/Pods-plasadoappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707D2AF0D0C75A9F2D7B52F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/EVTopTabBar/EVTopTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JBDatePicker/JBDatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationPicker/LocationPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Morph/Morph.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RMActionController/RMActionController.framework",
+				"${BUILT_PRODUCTS_DIR}/RMPickerViewController/RMPickerViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SWMessages/SWMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVTopTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBDatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Morph.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMActionController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMPickerViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Validator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71630CAE67EB3D180E69151C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoappUITests/Pods-plasadoappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A89DC421FD08CCDB9E5B222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plasadoapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56746A148C0B79E2EE6547E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoappUITests/Pods-plasadoappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D578F29D2CC079D6FC453BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoappTests/Pods-plasadoappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB155C11D85790B200E3537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-plasadoapp/Pods-plasadoapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CC963A8F3163CFADFB5C3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plasadoappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0028BC061F3DCD56001D0B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C132521F567F0300575695 /* UserSearchController.swift in Sources */,
+				0008E62F1F4192240006D966 /* CalendarViewController.swift in Sources */,
+				0050F34B1F3E841A00773EC5 /* CreateProfileTableController.swift in Sources */,
+				0008E61D1F4178990006D966 /* IntentionDetailSubController.swift in Sources */,
+				001564FD1F414000002507D5 /* OfferDetailContentController.swift in Sources */,
+				F2C1324D1F5596D600575695 /* OfferDetailHeaderCell.swift in Sources */,
+				00ADD70B1F70FA2500378E5E /* IntentionModel.swift in Sources */,
+				0041EC2F1F3ED5D20043DA77 /* AHTagsLabel.swift in Sources */,
+				009B26AA1F59DD2700505C54 /* UserModel.swift in Sources */,
+				0075D71F1F3F25DE00E88DB4 /* TabbarController.swift in Sources */,
+				003D78D21F41CCBF00DD9AC1 /* CalendarOtherViewController.swift in Sources */,
+				0008E6231F4191670006D966 /* CalendarTableViewCell.swift in Sources */,
+				0075D7211F3F2BF800E88DB4 /* MenuViewController.swift in Sources */,
+				0008E61B1F4178860006D966 /* IntentionDetailController.swift in Sources */,
+				F2C132541F56A1D900575695 /* SearchItemCell.swift in Sources */,
+				0028BC3E1F3DD4FB001D0B38 /* SignupController.swift in Sources */,
+				001564FB1F413FB4002507D5 /* OfferDetailSubController.swift in Sources */,
+				0075D7291F3F35AC00E88DB4 /* MyIntentionCell.swift in Sources */,
+				00F8668D1F481A0900F1E227 /* LocalStorage.swift in Sources */,
+				001564F71F3FD6E6002507D5 /* OffersViewController.swift in Sources */,
+				00D5E7751F7870AF00CFB062 /* CalendarShowController.swift in Sources */,
+				0008E62A1F4191940006D966 /* MZDay.m in Sources */,
+				0028BC101F3DCD56001D0B38 /* ViewController.swift in Sources */,
+				00248E2F1F759B6A000B132E /* NotificationsController.swift in Sources */,
+				001564F91F3FDA4F002507D5 /* OfferCell.swift in Sources */,
+				0075D72E1F3F38FF00E88DB4 /* ProfileController.swift in Sources */,
+				0028BC0E1F3DCD56001D0B38 /* AppDelegate.swift in Sources */,
+				F2BF5EF51F7E1804003224D3 /* CalendarEventFetch.swift in Sources */,
+				0008E62C1F4191940006D966 /* MZDayPickerCell.m in Sources */,
+				0075D7251F3F355700E88DB4 /* HomeController.swift in Sources */,
+				0075D72F1F3F38FF00E88DB4 /* ProfileSearchCell.swift in Sources */,
+				F2C1324F1F5596F300575695 /* OfferDetailFooterCell.swift in Sources */,
+				001565011F41489E002507D5 /* OfferDetailController.swift in Sources */,
+				0008E6211F4182AC0006D966 /* IntentionDetailOffersController.swift in Sources */,
+				0075D7281F3F35AC00E88DB4 /* FeaturedOffersCell.swift in Sources */,
+				0008E61F1F417B150006D966 /* IntentionDetailContentController.swift in Sources */,
+				F26F8F831F665D6D0035FAE3 /* OfferModel.swift in Sources */,
+				0075D7331F3F3BAF00E88DB4 /* AddIntentionController.swift in Sources */,
+				0050F3381F3E609600773EC5 /* TutorialController.swift in Sources */,
+				0041EC321F3ED5D20043DA77 /* AHTagView.swift in Sources */,
+				0050F3481F3E727800773EC5 /* FXPageControl.m in Sources */,
+				0008E62B1F4191940006D966 /* MZDayPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC1A1F3DCD56001D0B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028BC231F3DCD56001D0B38 /* plasadoappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028BC251F3DCD56001D0B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028BC2E1F3DCD56001D0B38 /* plasadoappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0028BC201F3DCD56001D0B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0028BC091F3DCD56001D0B38 /* plasadoapp */;
+			targetProxy = 0028BC1F1F3DCD56001D0B38 /* PBXContainerItemProxy */;
+		};
+		0028BC2B1F3DCD56001D0B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0028BC091F3DCD56001D0B38 /* plasadoapp */;
+			targetProxy = 0028BC2A1F3DCD56001D0B38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0028BC111F3DCD56001D0B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0028BC121F3DCD56001D0B38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0028BC161F3DCD56001D0B38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0028BC171F3DCD56001D0B38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0028BC301F3DCD56001D0B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0028BC311F3DCD56001D0B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0028BC331F3DCD56001D0B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8B78208A5928E63170D1BC /* Pods-plasadoapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = plasadoapp/plasadoapp.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q3LJ8SMAVR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plasadoapp",
+					"$(PROJECT_DIR)/plasadoapp/FacebookSDK",
+				);
+				INFOPLIST_FILE = plasadoapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.export.plasadoltd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "plasadoapp/plasadoapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0028BC341F3DCD56001D0B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6145EF50FDCBF4C5866CECB2 /* Pods-plasadoapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = plasadoapp/plasadoapp.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q3LJ8SMAVR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plasadoapp",
+					"$(PROJECT_DIR)/plasadoapp/FacebookSDK",
+				);
+				INFOPLIST_FILE = plasadoapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.export.plasadoltd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "plasadoapp/plasadoapp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0028BC361F3DCD56001D0B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B3D49BDA84D27988BA1CD0 /* Pods-plasadoappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = plasadoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.expert.plasadoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plasadoapp.app/plasadoapp";
+			};
+			name = Debug;
+		};
+		0028BC371F3DCD56001D0B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA9336F0DDF72CE70E47DF2 /* Pods-plasadoappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = plasadoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.expert.plasadoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plasadoapp.app/plasadoapp";
+			};
+			name = Release;
+		};
+		0028BC391F3DCD56001D0B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CFE9DBA0FAC2C1348F06FC /* Pods-plasadoappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = plasadoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.expert.plasadoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = plasadoapp;
+			};
+			name = Debug;
+		};
+		0028BC3A1F3DCD56001D0B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3964C6B682FAAD9C7616A888 /* Pods-plasadoappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = plasadoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.expert.plasadoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = plasadoapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0028BC051F3DCD56001D0B38 /* Build configuration list for PBXProject "plasadoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028BC301F3DCD56001D0B38 /* Debug */,
+				0028BC311F3DCD56001D0B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0028BC321F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028BC331F3DCD56001D0B38 /* Debug */,
+				0028BC341F3DCD56001D0B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0028BC351F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028BC361F3DCD56001D0B38 /* Debug */,
+				0028BC371F3DCD56001D0B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0028BC381F3DCD56001D0B38 /* Build configuration list for PBXNativeTarget "plasadoappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028BC391F3DCD56001D0B38 /* Debug */,
+				0028BC3A1F3DCD56001D0B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0028BC021F3DCD56001D0B38 /* Project object */;
+}

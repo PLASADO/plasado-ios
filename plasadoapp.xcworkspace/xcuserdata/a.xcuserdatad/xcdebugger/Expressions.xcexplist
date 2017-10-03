@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AppDelegate.application(UIApplication, didRegisterForRemoteNotificationsWithDeviceToken : Data) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "deviceToken.base64EncodedString()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(loadCalendars() -&gt; ()).(closure #1):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UserSearchController.onSearchButton(Any) -&gt; ():UserSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Database.database().reference().child(&quot;users&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "searchText! == &quot;&quot; || searchText! == nil">
+            </PersistentString>
+            <PersistentString
+               value = "snap">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(returnUserData(uid : String) -&gt; ()).(closure #1).(closure #1).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Map.init(mappingType: MappingType.fromJSON, JSON: (snap.value as! [String : Any])[uid] as! [String:Any])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.(viewDidLoad() -&gt; ()).(closure #1).(closure #1):AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(snap.value as! [String:Any])[keyStr] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.onCreateAccount(Any) -&gt; ():SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data.base64EncodedString()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Friend.init(value : [String : Any]) -&gt; Friend:UserModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "((value[&quot;picture&quot;] as! [String:Any])[&quot;data&quot;] as! [String:Any])[&quot;url&quot;] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewWillAppear(Bool) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "auth">
+            </PersistentString>
+            <PersistentString
+               value = "user">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UUID().uuidString">
+            </PersistentString>
+            <PersistentString
+               value = "Auth.auth().currentUser?.displayName">
+            </PersistentString>
+            <PersistentString
+               value = "Auth.auth().currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.loadCalendars() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(TapFacebookBtn() -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FBSDKAccessToken.current()">
+            </PersistentString>
+            <PersistentString
+               value = "credential.provider">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized CreateProfileTableController.(onUpcomingHoliday(Any) -&gt; ()).(closure #2):CreateProfileTableController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "upcoming_Holiday">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateProfileTableController.saveProfile(Any) -&gt; ():CreateProfileTableController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "User[&quot;upcomingholiday&quot;] as [String]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.getIntentionsinDay(date : Date) -&gt; [CelebrationEvent]:CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "LocalStorge.contact_Birthdays">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchItemCell.onAddedUser() -&gt; ():SearchItemCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.added">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(TapFacebookBtn() -&gt; ()).(closure #1).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo.toJSON()">
+            </PersistentString>
+            <PersistentString
+               value = "user?.isEmailVerified">
+            </PersistentString>
+            <PersistentString
+               value = "user.email">
+            </PersistentString>
+            <PersistentString
+               value = "Mapper&lt;User&gt;().map(JSONObject: result as! [String : Any])">
+            </PersistentString>
+            <PersistentString
+               value = "user?.displayName">
+            </PersistentString>
+            <PersistentString
+               value = "user?.phoneNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CelebrationEvent.init(value : [String : Any]) -&gt; CelebrationEvent:UserModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+            <PersistentString
+               value = "(value[&quot;start_time&quot;] as! String).dateFromISO8601!.iso8601">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.mapping(map : Map) -&gt; ():UserModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "events &lt;- map[&quot;events&quot;][&quot;data&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "Map(mappingType: MappingType.fromJSON, JSON: map[&quot;events&quot;])">
+            </PersistentString>
+            <PersistentString
+               value = "map[&quot;events&quot;].currentValue as! [String:Any]">
+            </PersistentString>
+            <PersistentString
+               value = "(map[&quot;events&quot;].currentValue as! [String:Any])[&quot;data&quot;] as? [[String:Any]]">
+            </PersistentString>
+            <PersistentString
+               value = "events">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.contactPicker(CNContactPickerViewController, didSelect : [CNContact]) -&gt; ():AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contacts[1].emailAddresses[0]">
+            </PersistentString>
+            <PersistentString
+               value = "contact.emailAddresses">
+            </PersistentString>
+            <PersistentString
+               value = "(self.tagview_Others.tags)?">
+            </PersistentString>
+            <PersistentString
+               value = "self.email_invitedArray">
+            </PersistentString>
+            <PersistentString
+               value = "contacts[1].emailAddresses[0].value">
+            </PersistentString>
+            <PersistentString
+               value = "contacts[1].emailAddresses">
+            </PersistentString>
+            <PersistentString
+               value = "self.tagview_Others.tags!">
+            </PersistentString>
+            <PersistentString
+               value = "contacts[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.(setType(Any) -&gt; ()).(closure #1):AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.categoryArray[controller.picker.selectedRow(inComponent: 0)]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.(contactPicker(CNContactPickerViewController, didSelect : [CNContact]) -&gt; ()).(closure #1):AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contact.emailAddresses.first?.value as! String">
+            </PersistentString>
+            <PersistentString
+               value = "self.email_invitedArray.contains(contact.emailAddresses[0].value as! String)">
+            </PersistentString>
+            <PersistentString
+               value = "self.email_invitedArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.(getIntentionsinDay(date : Date) -&gt; [CelebrationEvent]).(closure #2):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Calendar.current.component(Calendar.Component.day, from: start_time!)">
+            </PersistentString>
+            <PersistentString
+               value = "Calendar.current.component(Calendar.Component.day, from: Date())">
+            </PersistentString>
+            <PersistentString
+               value = "Calendar.current.component(Calendar.Component.month, from: start_time!)">
+            </PersistentString>
+            <PersistentString
+               value = "Calendar.current.component(Calendar.Component.month, from: Date())">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabbarController.tabControllerNavBarShow() -&gt; ():TabbarController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.submitIntention(Any) -&gt; ():AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Database.database().reference().child(&quot;intentions&quot;).childByAutoId().key">
+            </PersistentString>
+            <PersistentString
+               value = "self.email_invitedArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateProfileTableController.viewDidLoad() -&gt; ():CreateProfileTableController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(LocalStorge.user[&quot;upcomingholiday&quot;] as? [String])!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(onLogin(Any) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;success&quot;] as! Bool">
+            </PersistentString>
+            <PersistentString
+               value = "json[&quot;token&quot;] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeController.(viewDidLoad() -&gt; ()).(closure #1):HomeController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(snap.value as! [String : Any])">
+            </PersistentString>
+            <PersistentString
+               value = "snap.exists()">
+            </PersistentString>
+            <PersistentString
+               value = "snap.value as! Any">
+            </PersistentString>
+            <PersistentString
+               value = "snap.value as! [String:Any]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Intention.init(value : [String : Any]) -&gt; Intention:IntentionModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value[&quot;to_budget&quot;].debugDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserSearchController.(onSearchButton(Any) -&gt; ()).(closure #1).(closure #1):UserSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "LocalStorge.user">
+            </PersistentString>
+            <PersistentString
+               value = "User(value : target)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(FSCalendar, numberOfEventsFor : Date) -&gt; Int:CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "date.iso8601">
+            </PersistentString>
+            <PersistentString
+               value = "self.dateFormatter.date(from: date)">
+            </PersistentString>
+            <PersistentString
+               value = "dateformat.string(from: date)">
+            </PersistentString>
+            <PersistentString
+               value = "Calendar.current.component(Calendar.Component.day, from: date)">
+            </PersistentString>
+            <PersistentString
+               value = "date.iso8601.dateFromISO8601">
+            </PersistentString>
+            <PersistentString
+               value = "date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserSearchController.(onSearchButton(Any) -&gt; ()).(closure #1):UserSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "friend.name.lowercased()">
+            </PersistentString>
+            <PersistentString
+               value = "(snap.value as! [String:Any]).value">
+            </PersistentString>
+            <PersistentString
+               value = "(snap.value as! [String:Any]).keys">
+            </PersistentString>
+            <PersistentString
+               value = "self.searchText.lowercased()">
+            </PersistentString>
+            <PersistentString
+               value = "snap.value as! [String:Any]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.(onCreateAccount(Any) -&gt; ()).(closure #1):SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(returnUserData() -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "User(value: result as! [String:Any])">
+            </PersistentString>
+            <PersistentString
+               value = "Mapper&lt;User&gt;().map(JSONObject: result as! [String:Any])">
+            </PersistentString>
+            <PersistentString
+               value = "result as! [String:Any]">
+            </PersistentString>
+            <PersistentString
+               value = "User(JSON: result as! [String : Any])!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.(viewDidLoad() -&gt; ()).(closure #1):AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snap.value">
+            </PersistentString>
+            <PersistentString
+               value = "keyStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(viewWillAppear(Bool) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user?.email">
+            </PersistentString>
+            <PersistentString
+               value = "user?.photoURL">
+            </PersistentString>
+            <PersistentString
+               value = "user?.providerData">
+            </PersistentString>
+            <PersistentString
+               value = "user?.displayName">
+            </PersistentString>
+            <PersistentString
+               value = "user?.phoneNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.imagePickerController(UIImagePickerController, didFinishPickingMediaWithInfo : [String : Any]) -&gt; ():SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(info[UIImagePickerControllerReferenceURL] as URL).absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(fetchbirthdayListfromContact() -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contact.nameSuffix">
+            </PersistentString>
+            <PersistentString
+               value = "contact.emailAddresses">
+            </PersistentString>
+            <PersistentString
+               value = "contact.familyName">
+            </PersistentString>
+            <PersistentString
+               value = "contact.birthday?.date">
+            </PersistentString>
+            <PersistentString
+               value = "contact">
+            </PersistentString>
+            <PersistentString
+               value = "contact.dates">
+            </PersistentString>
+            <PersistentString
+               value = "contact.givenName">
+            </PersistentString>
+            <PersistentString
+               value = "contact.namePrefix">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddIntentionController.appInviteDialog(FBSDKAppInviteDialog!, didCompleteWithResults : [AnyHashable : Any]!) -&gt; ():AddIntentionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resultObject">
+            </PersistentString>
+            <PersistentString
+               value = "appInviteDialog.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.(onCreateAccount(Any) -&gt; ()).(closure #1).(closure #5):SignupController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(loadCalendars() -&gt; ()).(closure #2).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "(event.dictionaryWithValues(forKeys: [&quot;title&quot;])[&quot;title&quot;]) as! String">
+            </PersistentString>
+            <PersistentString
+               value = "LocalStorge.ical_Events">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.messaging(Messaging, didReceive : MessagingRemoteMessage) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "remoteMessage.appData.jsonString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.(calendar(FSCalendar, numberOfEventsFor : Date) -&gt; Int).(closure #1):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateFormatter.date(from: &quot;10/06/1988&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "event.start_time">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(loadCalendars() -&gt; ()).(closure #2):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendar.title">
+            </PersistentString>
+            <PersistentString
+               value = "self.loadEvents(calendar: calendar)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.init(value : [String : Any]) -&gt; User:UserModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Friend(value: friend)">
+            </PersistentString>
+            <PersistentString
+               value = "((value[&quot;taggable_friends&quot;] as? [String:Any])?[&quot;data&quot;] as? [[String:Any]])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(FSCalendar, appearance : FSCalendarAppearance, eventDefaultColorsFor : Date) -&gt; [UIColor]?:CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateformat.string(from: date)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AHTag.init(dictionary : [String : Any]) -&gt; AHTag:AHTagsLabel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictionary[&quot;TITLE&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.(onCreateAccount(Any) -&gt; ()).(closure #3):SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snapshot.progress!.completedUnitCount">
+            </PersistentString>
+            <PersistentString
+               value = "snapshot.progress!.totalUnitCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.(calendar(FSCalendar, appearance : FSCalendarAppearance, eventDefaultColorsFor : Date) -&gt; [UIColor]?).(closure #2):CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateformat.string(from: date)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalendarViewController.calendar(FSCalendar, didSelect : Date, at : FSCalendarMonthPosition) -&gt; ():CalendarViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getIntentionsinDay(date: self.calendar.selectedDate!)">
+            </PersistentString>
+            <PersistentString
+               value = "self.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateProfileTableController.(onUpcomingHoliday(Any) -&gt; ()).(closure #2):CreateProfileTableController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.upcoming_Holiday.tags">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(viewWillAppear(Bool) -&gt; ()).(closure #1).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user?.email">
+            </PersistentString>
+            <PersistentString
+               value = "userInfo.daysOffwork">
+            </PersistentString>
+            <PersistentString
+               value = "snap.exists()">
+            </PersistentString>
+            <PersistentString
+               value = "user?.uid">
+            </PersistentString>
+            <PersistentString
+               value = "snap.childrenCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

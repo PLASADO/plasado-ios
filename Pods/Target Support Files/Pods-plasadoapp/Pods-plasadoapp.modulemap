@@ -1,0 +1,6 @@
+framework module Pods_plasadoapp {
+  umbrella header "Pods-plasadoapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
