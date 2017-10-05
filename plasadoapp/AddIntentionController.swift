@@ -175,7 +175,7 @@ class AddIntentionController: UITableViewController, CLLocationManagerDelegate,U
             
             var intention = Intention(value: [
                 "name" : self.intentionName.text!,
-                "date" : self.label_Date.text!,
+                "date" : self.label_Date.text?.shortdateFromISO8601?.iso8601,
                 "location" : self.label_Location.text!,
                 "category" : self.label_Wedding.text!,
                 "maxBudget" : Int(self.to_budget.text!),
@@ -226,12 +226,10 @@ class AddIntentionController: UITableViewController, CLLocationManagerDelegate,U
         let maxDate = Calendar.current.date(byAdding: Calendar.Component.year, value: -30, to: Date())
         DatePickerDialog().show("Date", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", defaultDate: Date(), minimumDate: minDate, maximumDate: maxDate, datePickerMode: UIDatePickerMode.date) { (date) in
             
-            let dateFormater = DateFormatter()
-            dateFormater.dateFormat = "MM/dd/yyyy"
             if date != nil{
                 self.date_Intention = date
                 
-                self.label_Date.text = dateFormater.string(from: date!)
+                self.label_Date.text = date?.shortiso8601
             }
         }
     }

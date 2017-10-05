@@ -23,7 +23,7 @@ class LocalStorge {
     
     static public var featuredOfferArray : [Offer]! = []
     
-    static public var intentionArray : [[String : Any]]! = []
+    static public var intentionArray : [Intention]! = []
     
     static public var daysOffwork : [Date]!
     

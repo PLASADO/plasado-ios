@@ -92,6 +92,25 @@ class CalendarViewController: UIViewController ,FSCalendarDataSource, FSCalendar
                 }
             }
         }
+        
+        LocalStorge.intentionArray.forEach{ (intention) in
+            let current_day = Calendar.current.component(Calendar.Component.day, from: date)
+            let current_month = Calendar.current.component(Calendar.Component.month, from: date)
+            
+            let orig_day = Calendar.current.component(Calendar.Component.day, from: intention.date.dateFromISO8601!)
+            let orig_month = Calendar.current.component(Calendar.Component.month, from: intention.date.dateFromISO8601!)
+            
+            if ( orig_day == current_day && orig_month == current_month){
+                //eventArray.append(event)
+                var event = CelebrationEvent(value: [
+                    "name" : intention.name,
+                    "description" : intention.name,
+                    "start_date" : intention.date,
+                    "end_time" : intention.date
+                ])
+                eventArray.append(event)
+            }
+        }
         /*LocalStorge.contact_Birthdays.forEach { (event) in
             let start_time = event.start_time.dateFromISO8601
             let orig_day = Calendar.current.component(Calendar.Component.day, from: start_time!)
@@ -177,6 +196,17 @@ class CalendarViewController: UIViewController ,FSCalendarDataSource, FSCalendar
                 num = num + 1
             }
         }*/
+        LocalStorge.intentionArray.forEach{ (intention) in
+            let current_day = Calendar.current.component(Calendar.Component.day, from: date)
+            let current_month = Calendar.current.component(Calendar.Component.month, from: date)
+            
+            let orig_day = Calendar.current.component(Calendar.Component.day, from: intention.date.dateFromISO8601!)
+            let orig_month = Calendar.current.component(Calendar.Component.month, from: intention.date.dateFromISO8601!)
+            
+            if ( orig_day == current_day && orig_month == current_month){
+                num = num + 1;
+            }
+        }
         eventFetch.ical_Events.forEach { (event) in
             let start_time = event.start_time.dateFromISO8601
             let end_time = event.end_time.dateFromISO8601
@@ -206,6 +236,17 @@ class CalendarViewController: UIViewController ,FSCalendarDataSource, FSCalendar
 
     func calendar(_ calendar: FSCalendar, appearance: FSCalendarAppearance, eventDefaultColorsFor date: Date) -> [UIColor]? {
         var colorArray : [UIColor] = []
+        LocalStorge.intentionArray.forEach{ (intention) in
+            let current_day = Calendar.current.component(Calendar.Component.day, from: date)
+            let current_month = Calendar.current.component(Calendar.Component.month, from: date)
+            
+            let orig_day = Calendar.current.component(Calendar.Component.day, from: intention.date.dateFromISO8601!)
+            let orig_month = Calendar.current.component(Calendar.Component.month, from: intention.date.dateFromISO8601!)
+            
+            if ( orig_day == current_day && orig_month == current_month){
+                colorArray.append(UIColor.red)
+            }
+        }
         eventFetch.ical_Events.forEach { (event) in
             if event.start_time.dateFromISO8601?.shortiso8601 == event.end_time.dateFromISO8601?.shortiso8601{
                 if event.start_time.dateFromISO8601?.shortiso8601 == date.shortiso8601{
@@ -235,7 +276,6 @@ class CalendarViewController: UIViewController ,FSCalendarDataSource, FSCalendar
 
         }*/
         return colorArray
-        //        return nil
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

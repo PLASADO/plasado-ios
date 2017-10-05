@@ -77,10 +77,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "AddIntentionController.onDismissSearchController(invitedArr : [String]) -&gt; ():AddIntentionController.swift">
+         contextName = "closure #1 in closure #1 in HomeController.viewDidLoad():HomeController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "invitedArr">
+               value = "Offer(JSON: ((snap.value as! [String : Any])[str] as! [String:Any]))">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -104,10 +104,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in closure #1 in HomeController.viewDidLoad():HomeController.swift">
+         contextName = "AddIntentionController.onDismissSearchController(invitedArr : [String]) -&gt; ():AddIntentionController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "Offer(JSON: ((snap.value as! [String : Any])[str] as! [String:Any]))">
+               value = "invitedArr">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -136,6 +136,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in HomeController.viewDidLoad():HomeController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snap.value as! [String : Any]">
+            </PersistentString>
+            <PersistentString
+               value = "((snap.value as! [String : Any])[str] as! [String:Any])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "HomeController.viewDidLoad() -&gt; ():HomeController.swift">
          <PersistentStrings>
             <PersistentString
@@ -151,17 +162,6 @@
          <PersistentStrings>
             <PersistentString
                value = "item.title">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in HomeController.viewDidLoad():HomeController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "snap.value as! [String : Any]">
-            </PersistentString>
-            <PersistentString
-               value = "((snap.value as! [String : Any])[str] as! [String:Any])">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -258,10 +258,10 @@
                value = "&quot;https://holidayapi.com/key=3a21566f-5756-4761-ae48-da72b865b75b&amp;&amp;country=&quot;+LocalStorge.user.locale+&quot;&amp;&amp;year=\(year)&quot;">
             </PersistentString>
             <PersistentString
-               value = "event.start_time.dateFromISO8601">
+               value = "event.start_time">
             </PersistentString>
             <PersistentString
-               value = "event.start_time">
+               value = "event.start_time.dateFromISO8601">
             </PersistentString>
             <PersistentString
                value = "LocalStorge.user.birthday.dateFromISO8601">
@@ -328,10 +328,10 @@
          contextName = "UserSearchController.(onSearchButton(Any) -&gt; ()).(closure #1):UserSearchController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "self.UserArray.count">
+               value = "response.result.value as! [[String : Any]]">
             </PersistentString>
             <PersistentString
-               value = "response.result.value as! [[String : Any]]">
+               value = "self.UserArray.count">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -388,10 +388,10 @@
                value = "user.toJSON()">
             </PersistentString>
             <PersistentString
-               value = "snap.value as! [String : Any]">
+               value = "User(JSON: snap.value as! [String : Any])">
             </PersistentString>
             <PersistentString
-               value = "User(JSON: snap.value as! [String : Any])">
+               value = "snap.value as! [String : Any]">
             </PersistentString>
             <PersistentString
                value = "LocalStorge.user">
@@ -408,22 +408,38 @@
          contextName = "CalendarEventFetch.loadEvents(calendar:):CalendarEventFetch.swift">
       </ContextState>
       <ContextState
+         contextName = "OfferDetailContentController.tableView(_:cellForRowAt:):OfferDetailContentController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.object.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in CalendarViewController.calendar(_:appearance:eventDefaultColorsFor:):CalendarViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "event.start_time.dateFromISO8601?.shortiso8601">
             </PersistentString>
             <PersistentString
-               value = "event.start_time.dateFromISO8601?">
+               value = "event.start_time.dateFromISO8601">
             </PersistentString>
             <PersistentString
-               value = "event.start_time.dateFromISO8601">
+               value = "event.start_time.dateFromISO8601?">
             </PersistentString>
             <PersistentString
                value = "event.end_time.dateFromISO8601?.shortiso8601">
             </PersistentString>
             <PersistentString
                value = "event.end_time.dateFromISO8601">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in HomeController.viewDidLoad():HomeController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(snap.value as! [String : Any]).keys">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -464,10 +480,10 @@
          contextName = "SignupController.(returnUserData() -&gt; ()).(closure #1):SignupController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "dataObject[&quot;url&quot;] as! String">
+               value = "result as! [String: Any]">
             </PersistentString>
             <PersistentString
-               value = "result as! [String: Any]">
+               value = "dataObject[&quot;url&quot;] as! String">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
